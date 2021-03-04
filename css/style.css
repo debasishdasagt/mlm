@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Mar, 2021, 7:38:46 AM
+    Author     : Debasish
+*/
+
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+}
+
+.loginBox
+{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 5px;
+    min-height: 200px;
+    min-width: 400px;
+}
