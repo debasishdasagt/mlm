@@ -22,6 +22,7 @@ include_once 'config.php';
             <div class="row">
                 <div class="col-lg-3 col-md-3 hidden-sm hidden-xs"></div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 loginBox">
+                    <div style="color: blue; font-size:20px"><i class="bi-person-circle">fghfgh</i></div>
                     <form name="login" action="login.php" method="post">
                         <input type="text" class="form-control" name="usrid" id="usrid">
                         <input type="password" class="form-control" name="usrpass" id="usrpass">
