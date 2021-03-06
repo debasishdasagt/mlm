@@ -21,4 +21,10 @@ body{
     padding: 5px;
     min-height: 200px;
     min-width: 400px;
+    text-align: center;
+}
+
+.loginBox .form-control
+{
+    margin-bottom: 5px;
 }
