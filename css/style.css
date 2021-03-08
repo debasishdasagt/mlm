@@ -42,3 +42,40 @@ body{
 .bground{
     background-image: url("../images/pexels-tatiana-fet-1105766.jpg");
 }
+
+.profile_section
+{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+.profile_pic
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: aqua;
+    margin: auto;
+    font-size: 80px;
+    color: white;
+}
+
+.carousel_section
+{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.carousel_img
+{
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
