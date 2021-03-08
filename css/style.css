@@ -16,11 +16,29 @@ body{
 
 .loginBox
 {
-    background-color: #eeeeee;
+    background-color: rgba(0,0,0,0.8);
     border-radius: 10px;
     padding: 5px;
     min-height: 200px;
     min-width: 400px;
     text-align: center;
+    align-content: center;
+    border: #000 1px solid;
 }
 
+.loginBox .input-group
+{
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.loginBox .btn
+{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.bground{
+    background-image: url("../images/pexels-tatiana-fet-1105766.jpg");
+}
