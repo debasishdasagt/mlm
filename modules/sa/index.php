@@ -31,6 +31,7 @@ include_once '../navbar.php';
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="profile_section">
                         <div class="profile_pic"><i class="bi-person"></i></div>
+                        <div class="profile_detail">test</div>
                     </div>
                     
                 </div>
@@ -65,6 +66,76 @@ include_once '../navbar.php';
                         
                     </div>
                     
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="tile leader_tile">
+                        <div class="tile_icon">
+                            <i class="bi-person-circle"></i>
+                        </div>
+                        <div class="tile_title">
+                            My Leader
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="tile sa_tile">
+                        <div class="tile_icon">
+                            <i class="bi-diagram-2-fill"></i>
+                        </div>
+                        <div class="tile_title">
+                            My Direct SA
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="tile cust_tile">
+                        <div class="tile_icon">
+                            <i class="bi-people-fill"></i>
+                        </div>
+                        <div class="tile_title">
+                            My Customers
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="tile add_cust_tile">
+                        <div class="tile_icon">
+                            <i class="bi-person-plus-fill"></i>
+                        </div>
+                        <div class="tile_title">
+                            New Customers
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="tile wBal_tile">
+                        <div class="tile_icon">
+                            <i class="bi-cash"></i>
+                        </div>
+                        <div class="tile_title">
+                            Wallet Balance
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="tile tIncome_tile">
+                        <div class="tile_icon">
+                            <i class="bi-cash-stack"></i>
+                        </div>
+                        <div class="tile_title">
+                            Total Income
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

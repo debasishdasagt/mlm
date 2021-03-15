@@ -12,6 +12,7 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     padding-top:5px;
+    font-family: "calibri";
 }
 
 .loginBox
@@ -45,23 +46,36 @@ body{
 
 .profile_section
 {
-    background-color: #eeeeee;
-    border-radius: 10px;
+    position: relative;
+    border-radius: 15px;
     min-height: 200px;
     text-align: center;
     padding-top: 5px;
-    
+    z-index: 1;
 }
 
 .profile_pic
 {
+    position: absolute;
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    background-color: aqua;
-    margin: auto;
+    background-color: #ffce00;
     font-size: 80px;
     color: white;
+    z-index: 3;
+    right: 75px;
+    box-shadow:#000 2px 2px 7px 2px ;
+}
+
+.profile_detail{
+    position: absolute;
+    background-color: #0375b4;
+    height:150px;
+    z-index: 2;
+    border-radius: 15px;
+    top: 50px;
+    width: 100%;
 }
 
 .carousel_section
@@ -78,4 +92,104 @@ body{
     max-height: 200px;
     width: 100%;
     border-radius: 10px;
+}
+
+.tile
+{
+    min-height: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #eeeeee;
+    
+    transition: 0.3s;
+    opacity: 0.9;
+}
+
+.leader_tile
+{
+    background-color: #ffce00;
+    color:white;
+}
+.leader_tile:hover
+{
+    margin: 8px;
+    opacity: 1;
+}
+
+.sa_tile
+{
+    background-color: #007849;
+    color:white;
+}
+
+.sa_tile:hover
+{
+    margin: 8px;
+    opacity: 1;
+}
+
+.cust_tile
+{
+    background-color: #0375b4;
+    color:white;
+}
+.cust_tile:hover
+{
+    margin: 8px;
+    opacity: 1;
+}
+
+.add_cust_tile
+{
+    background-color: #262228;
+    color:white;
+}
+.add_cust_tile:hover
+{
+    margin: 8px;
+    opacity: 1;
+}
+
+
+.wBal_tile
+{
+    background-color: #ffce00;
+    color:white;
+}
+.wBal_tile:hover
+{
+    margin: 8px;
+    opacity: 1;
+}
+
+
+.tIncome_tile
+{
+    background-color: #007849;
+    color:white;
+}
+.tIncome_tile:hover
+{
+    margin: 8px;
+    opacity: 1;
+}
+
+.tile_icon
+{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 60px;
+    color: #ffffff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+.tile_title
+{
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight:bold;
+    margin-top: 5px;
 }
