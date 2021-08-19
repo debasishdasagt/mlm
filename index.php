@@ -88,7 +88,7 @@ https://templatemo.com/tm-561-purple-buzz
 
     <!-- Start Banner Hero -->
     <div class="banner-wrapper bg-light">
-        <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
+        <div id="index_banner" class="banner-vertical-center-index container-fluid ">
 
             
              <!-- Start slider -->
@@ -101,9 +101,9 @@ https://templatemo.com/tm-561-purple-buzz
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 
-                        <div class="py-5 row d-flex align-items-center" >
+                        <div class="row d-flex align-items-center" style="height: 50vh">
                             
-                            <div class="banner-content col-9 col-lg-9 col-md-10 col-sm-12 offset-2 m-lg-auto text-left py-5 pb-5">
+                            <div class="banner-content col-7 col-lg-7 col-md-10 col-sm-12 offset-2 m-lg-auto text-left py-5 pb-5">
                                 <h1 class="banner-heading h1  display-3 mb-0 pb-5 mx-0 px-0 light-300 typo-space-line"><!-- text-secondary removed -->
                                     Redefining <strong>Health Care</strong> 
                                   
@@ -116,7 +116,7 @@ https://templatemo.com/tm-561-purple-buzz
                                     </p>
                                 <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
                             </div>
-                            <div class="col-3 col-lg-3 col-md-2 d-xl-block d-sm-none d- banner-img-container">
+                            <div class="col-3 col-lg-3 col-md-2 d-xl-block d-lg-block d-xxl-block d-none banner-img-container">
                                 <img src="assets/img/medical-doctor-patient-clipart-md.png" class="banner-img">
                             </div>
                         </div>

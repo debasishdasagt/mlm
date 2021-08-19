@@ -69,7 +69,7 @@ p, a {font-weight: 400;}
   font-size: 5em;
 }
 #index_banner .carousel-inner {
-  height: 50vh;
+  min-height: 50vh;
 }
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
